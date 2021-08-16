@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="page=header">
+  <h1>{{ title }}</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-9">
+        <div class="tab-content">
+            <p>Main content here</p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+            <li>
+                <a data-toggle="pill" href="#">Article 1</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}
